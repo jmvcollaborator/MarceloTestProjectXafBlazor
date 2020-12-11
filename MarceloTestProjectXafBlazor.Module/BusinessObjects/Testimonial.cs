@@ -1,4 +1,5 @@
-﻿using DevExpress.Persistent.Base;
+﻿using DevExpress.ExpressApp.DC;
+using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Xpo;
 using System;
@@ -12,7 +13,13 @@ namespace MarceloTestProjectXafBlazor.Module.BusinessObjects
         {
             createdOn = DateTime.Now;
         }
+
+        /// <summary>
+        /// https://docs.devexpress.com/eXpressAppFramework/401954/getting-started/basic-tutorial-blazor/customize-the-application-ui-and-behavior-blazor
+        /// </summary>
         string quote;
+        [Size(FieldSizeAttribute.Unlimited)]
+
         public string Quote
         {
             get { return quote; }
