@@ -403,3 +403,7 @@ Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 11.84
 
 11.12.20 18:58:04.009	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		SelectedItem: Project Task
 11.12.20 18:58:04.065	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	Action 'ShowNavigationItem' done
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 POST https://localhost:44318/_blazor/disconnect multipart/form-data; boundary=----WebKitFormBoundaryG0SjkvvCO8ZmI9Xz 359
+Microsoft.AspNetCore.Routing.EndpointMiddleware: Information: Executing endpoint 'Blazor disconnect'
+Microsoft.AspNetCore.Routing.EndpointMiddleware: Information: Executed endpoint '/_blazor'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 569783.6636ms 101 
