@@ -1,0 +1,17 @@
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.StaticWebAssets.xml
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.deps.json
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.dll
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.pdb
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.dll
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.pdb
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.csprojAssemblyReference.cache
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.AssemblyInfoInputs.cache
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.AssemblyInfo.cs
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.csproj.CoreCompileInputs.cache
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\staticwebassets\MarceloTestProjectXafBlazor.Module.Blazor.StaticWebAssets.Manifest.cache
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\staticwebassets\MarceloTestProjectXafBlazor.Module.Blazor.StaticWebAssets.xml
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\scopedcss\bundle\MarceloTestProjectXafBlazor.Module.Blazor.styles.css
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.RazorTargetAssemblyInfo.cache
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.csproj.CopyComplete
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.dll
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module.Blazor\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.Blazor.pdb

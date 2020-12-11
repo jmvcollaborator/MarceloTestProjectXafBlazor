@@ -1,0 +1,9 @@
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.deps.json
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.dll
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\bin\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.pdb
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.csprojAssemblyReference.cache
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.AssemblyInfoInputs.cache
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.AssemblyInfo.cs
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.csproj.CoreCompileInputs.cache
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.dll
+C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Module\obj\Debug\netstandard2.1\MarceloTestProjectXafBlazor.Module.pdb

@@ -1,0 +1,405 @@
+11.12.20 18:56:55.052	00000000-0000-0000-0000-000000000000	================================================================================
+11.12.20 18:56:55.135	00000000-0000-0000-0000-000000000000	Trace Log for MarceloTestProjectXafBlazor.Blazor.Server is started
+11.12.20 18:56:55.342	00000000-0000-0000-0000-000000000000	================================================================================
+11.12.20 18:56:55.707	00000000-0000-0000-0000-000000000000	System Environment
+	OS Version: Microsoft Windows NT 10.0.19042.0
+	CLR Version: 3.1.9
+	eXpressApp Version: 20.2.4.0
+	eXpressApp File Version: 20.2.4.0
+
+Application config
+
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Information: User profile is available. Using 'C:\Users\Marcelo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Content root path: C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware: Information: Executing endpoint '/_Host'
+Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker: Information: Route matched with {page = "/_Host"}. Executing page /_Host
+Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker: Information: Executing an implicit handler method - ModelState is Valid
+Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker: Information: Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker: Information: Executed page /_Host in 1003.2131ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware: Information: Executed endpoint '/_Host'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 1912.7947ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/images/SplashScreen.svg  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/css/themes/office white/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.ExpressApp.Blazor/styles.css  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_framework/blazor.server.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/dx-blazor.css  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.ExpressApp.Blazor/scripts.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/css/site.css'. Physical path: 'C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\wwwroot\css\site.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_framework/blazor.server.js'. Physical path: 'N/A'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 401.1924ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 340.3989ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/css/themes/office white/bootstrap.min.css'. Physical path: 'C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\wwwroot\css\themes\office white\bootstrap.min.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/images/SplashScreen.svg'. Physical path: 'C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\wwwroot\images\SplashScreen.svg'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 655.0094ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 687.3006ms 200 image/svg+xml
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.ExpressApp.Blazor/styles.css'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.expressapp.blazor\20.2.4\staticwebassets\styles.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.ExpressApp.Blazor/scripts.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.expressapp.blazor\20.2.4\staticwebassets\scripts.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 644.9965ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 567.3407ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/dx-blazor.css'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\dx-blazor.css'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 836.9413ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/css/open-iconic/font/css/open-iconic-bootstrap.min.css  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/css/open-iconic/font/css/open-iconic-bootstrap.min.css'. Physical path: 'C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 36.2096ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 POST https://localhost:44318/_blazor/negotiate?negotiateVersion=1 text/plain;charset=UTF-8 0
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Routing.EndpointMiddleware: Information: Executing endpoint '/_blazor/negotiate'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 78.0035ms 200 image/x-icon
+Microsoft.AspNetCore.Routing.EndpointMiddleware: Information: Executed endpoint '/_blazor/negotiate'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 231.9556ms 200 application/json
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/1.1 GET https://localhost:44318/_blazor?id=rL9iJS0QAFu_fDhxyJtl2w  
+Microsoft.AspNetCore.Routing.EndpointMiddleware: Information: Executing endpoint '/_blazor'
+11.12.20 18:57:08.025	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+11.12.20 18:57:08.073	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							
+
+11.12.20 18:57:08.193	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Blazor.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\DevExpress.Blazor.v20.2.dll
+	DevExpress.Data.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\DevExpress.Data.v20.2.dll
+	DevExpress.ExpressApp.Blazor.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\DevExpress.ExpressApp.Blazor.v20.2.dll
+	DevExpress.ExpressApp.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\DevExpress.ExpressApp.v20.2.dll
+	DevExpress.ExpressApp.Xpo.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\DevExpress.ExpressApp.Xpo.v20.2.dll
+	DevExpress.Xpo.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\DevExpress.Xpo.v20.2.dll
+	MarceloTestProjectXafBlazor.Blazor.Server, Version=1.0.7650.34097, Culture=neutral, PublicKeyToken=null, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\MarceloTestProjectXafBlazor.Blazor.Server.dll
+	MarceloTestProjectXafBlazor.Blazor.Server.Views, Version=1.0.7650.34097, Culture=neutral, PublicKeyToken=null, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\MarceloTestProjectXafBlazor.Blazor.Server.Views.dll
+	MarceloTestProjectXafBlazor.Module, Version=1.0.7650.34094, Culture=neutral, PublicKeyToken=null, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\MarceloTestProjectXafBlazor.Module.dll
+	MarceloTestProjectXafBlazor.Module.Blazor, Version=1.0.7650.34095, Culture=neutral, PublicKeyToken=null, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\MarceloTestProjectXafBlazor.Module.Blazor.dll
+	Microsoft.AspNetCore, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.dll
+	Microsoft.AspNetCore.Antiforgery, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Antiforgery.dll
+	Microsoft.AspNetCore.Authentication, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Authentication.dll
+	Microsoft.AspNetCore.Authentication.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Authentication.Abstractions.dll
+	Microsoft.AspNetCore.Authentication.Core, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Authentication.Core.dll
+	Microsoft.AspNetCore.Authorization, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Authorization.dll
+	Microsoft.AspNetCore.Authorization.Policy, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Authorization.Policy.dll
+	Microsoft.AspNetCore.Components, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Components.dll
+	Microsoft.AspNetCore.Components.Authorization, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Components.Authorization.dll
+	Microsoft.AspNetCore.Components.Forms, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Components.Forms.dll
+	Microsoft.AspNetCore.Components.Server, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Components.Server.dll
+	Microsoft.AspNetCore.Components.Web, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Components.Web.dll
+	Microsoft.AspNetCore.Connections.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Connections.Abstractions.dll
+	Microsoft.AspNetCore.Cryptography.Internal, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Cryptography.Internal.dll
+	Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.DataProtection.dll
+	Microsoft.AspNetCore.DataProtection.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+	Microsoft.AspNetCore.DataProtection.Extensions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.DataProtection.Extensions.dll
+	Microsoft.AspNetCore.Diagnostics, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Diagnostics.dll
+	Microsoft.AspNetCore.Diagnostics.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+	Microsoft.AspNetCore.HostFiltering, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.HostFiltering.dll
+	Microsoft.AspNetCore.Hosting, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Hosting.dll
+	Microsoft.AspNetCore.Hosting.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Hosting.Abstractions.dll
+	Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+	Microsoft.AspNetCore.Html.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Html.Abstractions.dll
+	Microsoft.AspNetCore.Http, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Http.dll
+	Microsoft.AspNetCore.Http.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Http.Abstractions.dll
+	Microsoft.AspNetCore.Http.Connections, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Http.Connections.dll
+	Microsoft.AspNetCore.Http.Connections.Common, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Http.Connections.Common.dll
+	Microsoft.AspNetCore.Http.Extensions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Http.Extensions.dll
+	Microsoft.AspNetCore.Http.Features, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Http.Features.dll
+	Microsoft.AspNetCore.HttpOverrides, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.HttpOverrides.dll
+	Microsoft.AspNetCore.HttpsPolicy, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.HttpsPolicy.dll
+	Microsoft.AspNetCore.Metadata, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Metadata.dll
+	Microsoft.AspNetCore.Mvc, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Mvc.dll
+	Microsoft.AspNetCore.Mvc.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Mvc.Abstractions.dll
+	Microsoft.AspNetCore.Mvc.Core, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Mvc.Core.dll
+	Microsoft.AspNetCore.Mvc.DataAnnotations, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+	Microsoft.AspNetCore.Mvc.Razor, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Mvc.Razor.dll
+	Microsoft.AspNetCore.Mvc.RazorPages, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Mvc.RazorPages.dll
+	Microsoft.AspNetCore.Mvc.TagHelpers, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+	Microsoft.AspNetCore.Mvc.ViewFeatures, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+	Microsoft.AspNetCore.Razor, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Razor.dll
+	Microsoft.AspNetCore.Razor.Runtime, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Razor.Runtime.dll
+	Microsoft.AspNetCore.Routing, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Routing.dll
+	Microsoft.AspNetCore.Routing.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Routing.Abstractions.dll
+	Microsoft.AspNetCore.Server.IIS, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Server.IIS.dll
+	Microsoft.AspNetCore.Server.IISIntegration, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Server.IISIntegration.dll
+	Microsoft.AspNetCore.Server.Kestrel, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Server.Kestrel.dll
+	Microsoft.AspNetCore.Server.Kestrel.Core, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+	Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+	Microsoft.AspNetCore.SignalR, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.SignalR.dll
+	Microsoft.AspNetCore.SignalR.Common, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.SignalR.Common.dll
+	Microsoft.AspNetCore.SignalR.Core, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.SignalR.Core.dll
+	Microsoft.AspNetCore.SignalR.Protocols.Json, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+	Microsoft.AspNetCore.StaticFiles, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.StaticFiles.dll
+	Microsoft.AspNetCore.WebSockets, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.WebSockets.dll
+	Microsoft.AspNetCore.WebUtilities, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.AspNetCore.WebUtilities.dll
+	Microsoft.Extensions.Caching.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Caching.Abstractions.dll
+	Microsoft.Extensions.Caching.Memory, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Caching.Memory.dll
+	Microsoft.Extensions.Configuration, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Configuration.dll
+	Microsoft.Extensions.Configuration.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Configuration.Abstractions.dll
+	Microsoft.Extensions.Configuration.Binder, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Configuration.Binder.dll
+	Microsoft.Extensions.Configuration.CommandLine, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Configuration.CommandLine.dll
+	Microsoft.Extensions.Configuration.EnvironmentVariables, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+	Microsoft.Extensions.Configuration.FileExtensions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Configuration.FileExtensions.dll
+	Microsoft.Extensions.Configuration.Json, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Configuration.Json.dll
+	Microsoft.Extensions.Configuration.UserSecrets, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Configuration.UserSecrets.dll
+	Microsoft.Extensions.DependencyInjection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.DependencyInjection.dll
+	Microsoft.Extensions.DependencyInjection.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	Microsoft.Extensions.FileProviders.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.FileProviders.Abstractions.dll
+	Microsoft.Extensions.FileProviders.Composite, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.FileProviders.Composite.dll
+	Microsoft.Extensions.FileProviders.Embedded, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.FileProviders.Embedded.dll
+	Microsoft.Extensions.FileProviders.Physical, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.FileProviders.Physical.dll
+	Microsoft.Extensions.FileSystemGlobbing, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.FileSystemGlobbing.dll
+	Microsoft.Extensions.Hosting, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Hosting.dll
+	Microsoft.Extensions.Hosting.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Hosting.Abstractions.dll
+	Microsoft.Extensions.Localization.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Localization.Abstractions.dll
+	Microsoft.Extensions.Logging, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Logging.dll
+	Microsoft.Extensions.Logging.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Logging.Abstractions.dll
+	Microsoft.Extensions.Logging.Configuration, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Logging.Configuration.dll
+	Microsoft.Extensions.Logging.Console, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Logging.Console.dll
+	Microsoft.Extensions.Logging.Debug, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Logging.Debug.dll
+	Microsoft.Extensions.Logging.EventLog, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Logging.EventLog.dll
+	Microsoft.Extensions.Logging.EventSource, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Logging.EventSource.dll
+	Microsoft.Extensions.ObjectPool, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.ObjectPool.dll
+	Microsoft.Extensions.Options, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Options.dll
+	Microsoft.Extensions.Options.ConfigurationExtensions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+	Microsoft.Extensions.Primitives, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.Primitives.dll
+	Microsoft.Extensions.WebEncoders, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Extensions.WebEncoders.dll
+	Microsoft.JSInterop, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.JSInterop.dll
+	Microsoft.Net.Http.Headers, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\Microsoft.Net.Http.Headers.dll
+	Microsoft.Win32.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\Microsoft.Win32.Registry.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\netstandard.dll
+	System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Buffers.dll
+	System.Collections, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Collections.dll
+	System.Collections.Concurrent, Version=4.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Collections.Concurrent.dll
+	System.Collections.NonGeneric, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Collections.Specialized.dll
+	System.ComponentModel, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.ComponentModel.dll
+	System.ComponentModel.Annotations, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.ComponentModel.Annotations.dll
+	System.ComponentModel.Primitives, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+	System.Console, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Console.dll
+	System.Data.Common, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Data.Common.dll
+	System.Diagnostics.Debug, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Debug.dll
+	System.Diagnostics.DiagnosticSource, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.DiagnosticSource.dll
+	System.Diagnostics.EventLog, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.EventLog.dll
+	System.Diagnostics.StackTrace, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.TraceSource.dll
+	System.Diagnostics.Tracing, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Tracing.dll
+	System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Drawing.Primitives.dll
+	System.IO.FileSystem, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.IO.FileSystem.dll
+	System.IO.FileSystem.Watcher, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.IO.FileSystem.Watcher.dll
+	System.IO.Pipelines, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.IO.Pipelines.dll
+	System.Linq, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Linq.dll
+	System.Linq.Expressions, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Linq.Expressions.dll
+	System.Memory, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Memory.dll
+	System.Net.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Net.Primitives.dll
+	System.Net.WebClient, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Net.WebClient.dll
+	System.Net.WebSockets, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Net.WebSockets.dll
+	System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Numerics.Vectors.dll
+	System.ObjectModel, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.ObjectModel.dll
+	System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Private.CoreLib.dll
+	System.Private.Uri, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Private.Uri.dll
+	System.Private.Xml, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Private.Xml.dll
+	System.Private.Xml.Linq, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Private.Xml.Linq.dll
+	System.Reflection.Emit, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Reflection.Primitives.dll
+	System.Resources.ResourceManager, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Resources.ResourceManager.dll
+	System.Runtime, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Runtime.dll
+	System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Runtime.CompilerServices.Unsafe.dll
+	System.Runtime.Extensions, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Security.Claims, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Security.Claims.dll
+	System.Security.Cryptography.Algorithms, Version=4.3.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Csp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Security.Cryptography.Csp.dll
+	System.Security.Cryptography.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Security.Cryptography.Primitives.dll
+	System.Security.Cryptography.X509Certificates, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Security.Cryptography.X509Certificates.dll
+	System.Security.Permissions, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Security.Permissions.dll
+	System.Security.Principal, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Security.Principal.dll
+	System.Security.Principal.Windows, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Security.Principal.Windows.dll
+	System.Text.Encoding.Extensions, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Text.Encoding.Extensions.dll
+	System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Text.Encodings.Web.dll
+	System.Text.Json, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Text.Json.dll
+	System.Text.RegularExpressions, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Text.RegularExpressions.dll
+	System.Threading, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Threading.dll
+	System.Threading.Channels, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Threading.Channels.dll
+	System.Threading.Overlapped, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Threading.Overlapped.dll
+	System.Threading.Tasks, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Threading.Tasks.dll
+	System.Threading.Thread, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Threading.ThreadPool.dll
+	System.Threading.Timer, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Threading.Timer.dll
+	System.Xml.ReaderWriter, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Xml.ReaderWriter.dll
+	System.Xml.XDocument, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Xml.XDocument.dll
+	System.Xml.XmlSerializer, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Xml.XmlSerializer.dll
+11.12.20 18:57:08.812	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	SetupModules
+11.12.20 18:57:09.719	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	Customize TypesInfo
+11.12.20 18:57:25.209	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Start logon process
+
+11.12.20 18:57:25.238	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+11.12.20 18:57:25.289	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=localhost;Initial Catalog=MarceloTestProjectXafBlazor;XpoDataStorePool=True;
+11.12.20 18:57:25.362	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		ConnectionString: 
+11.12.20 18:57:25.879	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+11.12.20 18:57:37.098	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							UpdateDB
+
+11.12.20 18:57:47.662	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=localhost;Initial Catalog=MarceloTestProjectXafBlazor;XpoDataStorePool=True;
+11.12.20 18:57:49.410	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Logon successful
+
+11.12.20 18:57:49.424	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Logon completed
+
+11.12.20 18:57:49.624	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+11.12.20 18:57:49.706	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Execute action
+
+11.12.20 18:57:49.713	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+11.12.20 18:57:49.718	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		SelectedItem: Customer
+11.12.20 18:57:50.136	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	Action 'ShowNavigationItem' done
+11.12.20 18:57:50.218	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	Generate default Model for Action containers
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/dx-blazor.js?version=cjse1623b9c.jsesmd587fb6a.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/dx-blazor.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\dx-blazor.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 29.8047ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/IImageService/Hamburger?hash=d92d55374ce2c8cad817b72442851fed  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/IImageService/Settings?hash=4ff6c3c957ab1b3669be7c987437cff2  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/images/Logo.svg  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/IImageService/Action_New?hash=51f0cf2db2dd945299c46a0362766649  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/IImageService/Action_Search?hash=f24b66017d4ba639601c3cc00a76eb4a  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/IImageService/Action_Refresh?hash=76026781ca90b62cb2794ab7ba57c20f  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 26.0664ms 200 image/svg+xml
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 49.8655ms 200 image/svg+xml
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 84.8835ms 200 image/svg+xml
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 81.2047ms 200 image/svg+xml
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/css/open-iconic/font/fonts/open-iconic.woff  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/images/Logo.svg'. Physical path: 'C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\wwwroot\images\Logo.svg'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 64.494ms 200 image/svg+xml
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 280.8162ms 200 image/svg+xml
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/css/open-iconic/font/fonts/open-iconic.woff'. Physical path: 'C:\Marcelo POCs Advanced\MarceloTestProjectXafBlazor\MarceloTestProjectXafBlazor.Blazor.Server\wwwroot\css\open-iconic\font\fonts\open-iconic.woff'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 207.8044ms 200 application/font-woff
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/esmd587fb6a.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/esmd587fb6a.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\esmd587fb6a.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 16.6819ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-dx-blazor-d587fb6a.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-dx-blazor-d587fb6a.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-dx-blazor-d587fb6a.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 35.3711ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-toolbar-0d5cfa1e.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-toolbar-0d5cfa1e.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-toolbar-0d5cfa1e.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 27.2379ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-d81494b9.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-dom-utils-c40cd314.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-1b6abd73.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-focus-utils-c767d78c.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-f3c18c5b.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-9c16a801.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-d81494b9.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-d81494b9.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-4bcd729b.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-f3c18c5b.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-f3c18c5b.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-dom-utils-c40cd314.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-dom-utils-c40cd314.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 59.5853ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-1b6abd73.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-1b6abd73.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 89.6955ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 108.23ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-dx-style-helper-ee2a11d5.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-focus-utils-c767d78c.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-focus-utils-c767d78c.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 78.7577ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 151.7084ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-9c16a801.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-9c16a801.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-4bcd729b.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-4bcd729b.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-dx-style-helper-ee2a11d5.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-dx-style-helper-ee2a11d5.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 181.779ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 111.5718ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 202.0352ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-grid-column-resize-adeb3acf.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-grid-column-resize-adeb3acf.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-grid-column-resize-adeb3acf.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 195.6031ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-combobox-ac618e41.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-combobox-ac618e41.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-combobox-ac618e41.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-808bf349.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-buttonedit-5c943786.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 60.6341ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-808bf349.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-808bf349.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 60.1883ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-buttonedit-5c943786.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-buttonedit-5c943786.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 94.5381ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-d4fc448c.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-30985063.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-dragAndDropUnit-f02dc664.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-chunk-13e2cf5f.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-30985063.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-30985063.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-grid-1b060bef.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-popup-utils-32033e18.js  
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 57.2523ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-d4fc448c.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-d4fc448c.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-dragAndDropUnit-f02dc664.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-dragAndDropUnit-f02dc664.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 114.0976ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 107.6712ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-grid-1b060bef.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-grid-1b060bef.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-chunk-13e2cf5f.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-chunk-13e2cf5f.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 226.7776ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 231.1108ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-dropdowns-990ef398.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-popup-utils-32033e18.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-popup-utils-32033e18.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-dropdowns-990ef398.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-dropdowns-990ef398.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 222.1671ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 292.0781ms 200 application/javascript
+11.12.20 18:57:58.658	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Execute action
+
+11.12.20 18:57:58.667	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Customer
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+11.12.20 18:57:58.672	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		SelectedItem: Testimonial
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/dx-blazor.js?version=cjse1623b9c.jsesmd587fb6a.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/dx-blazor.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\dx-blazor.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 14.9116ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request starting HTTP/2.0 GET https://localhost:44318/_content/DevExpress.Blazor/modules/esm-gridlayoutstyle-33fa3b2f.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Information: Sending file. Request path: '/_content/DevExpress.Blazor/modules/esm-gridlayoutstyle-33fa3b2f.js'. Physical path: 'C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\devexpress.blazor\20.2.4\staticwebassets\modules\esm-gridlayoutstyle-33fa3b2f.js'
+Microsoft.AspNetCore.Hosting.Diagnostics: Information: Request finished in 11.84ms 200 application/javascript
+11.12.20 18:57:59.197	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	Action 'ShowNavigationItem' done
+11.12.20 18:58:02.094	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Execute action
+
+11.12.20 18:58:02.101	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Testimonial
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+11.12.20 18:58:02.105	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		SelectedItem: Project
+11.12.20 18:58:02.134	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	Action 'ShowNavigationItem' done
+11.12.20 18:58:03.999	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	--------------------------------------------------------------------------------
+							Execute action
+
+11.12.20 18:58:04.004	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Project
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+11.12.20 18:58:04.009	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1		SelectedItem: Project Task
+11.12.20 18:58:04.065	5c518bd0-1a68-4083-b4ab-ab1e0c8e40b1	Action 'ShowNavigationItem' done
