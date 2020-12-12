@@ -3,7 +3,6 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel;
 using DevExpress.ExpressApp;
-using DevExpress.ExpressApp.DC;
 using System.Collections.Generic;
 using DevExpress.ExpressApp.Model;
 using DevExpress.ExpressApp.Editors;
@@ -13,6 +12,7 @@ using DevExpress.ExpressApp.Model.Core;
 using DevExpress.ExpressApp.Model.DomainLogics;
 using DevExpress.ExpressApp.Model.NodeGenerators;
 using DevExpress.Persistent.BaseImpl;
+using DevExpress.ExpressApp.Validation;
 
 namespace MarceloTestProjectXafBlazor.Module.Blazor {
     [ToolboxItemFilter("Xaf.Platform.Blazor")]
@@ -20,6 +20,8 @@ namespace MarceloTestProjectXafBlazor.Module.Blazor {
     public sealed partial class MarceloTestProjectXafBlazorBlazorModule : ModuleBase {
         public MarceloTestProjectXafBlazorBlazorModule() {
             InitializeComponent();
+            RequiredModuleTypes.Add(typeof(ValidationModule));
+            AdditionalExportedTypes.Add(typeof(Person));
         }
         public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
             return ModuleUpdater.EmptyModuleUpdaters;

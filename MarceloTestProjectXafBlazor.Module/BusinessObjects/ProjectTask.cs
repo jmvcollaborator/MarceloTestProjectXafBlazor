@@ -1,11 +1,14 @@
 ﻿using System;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
+using DevExpress.Persistent.Validation;
 using DevExpress.Xpo;
 
 namespace MarceloTestProjectXafBlazor.Module.BusinessObjects
 {
     [NavigationItem("Planning")]
+    [RuleCriteria("EndDate >= StartDate",
+    CustomMessageTemplate = "Start Date must be less than End Date")]
     public class ProjectTask : BaseObject
     {
         public ProjectTask(Session session) : base(session) { }
